@@ -12,7 +12,7 @@ from telethon.errors.rpcerrorlist import BotMethodInvalidError as bmi
 from telethon.errors.rpcerrorlist import BotResponseTimeoutError as rep
 
 from . import *
-
+from pyUltroid import *
 
 @ultroid_cmd(
     pattern="help ?(.*)",
